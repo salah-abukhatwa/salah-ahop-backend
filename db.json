@@ -1,0 +1,139 @@
+{
+  "seller": [
+    {
+      "name": "salah",
+      "email": "salah@gmail.com",
+      "password": "12345",
+      "id": 1
+    }
+  ],
+  "products": [
+    {
+      "id": "bca1",
+      "name": "Iphone 15 pro max",
+      "price": 1550,
+      "color": "gray",
+      "category": "mobile",
+      "image": "https://cdn.akakce.com/z/apple/iphone-15-pro-max-256-gb-naturel-titanyum.jpg",
+      "description": " iPhone 15 Pro Max, RAM Capacity: 8 GB, Internal Memory: 256 GB, Screen Size: 6.7 inches, Battery Capacity: 4422 mAh, Release Year: 2023",
+      "discount": 7
+    },
+    {
+      "id": "0b6e",
+      "name": "samsung Galaxy S24 Ultra",
+      "price": 1300,
+      "category": "mobile",
+      "color": " Grey",
+      "description": "Stunning display, excellent battery life, robust performance, improved ecosystem",
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/tr/2401/gallery/tr-galaxy-s24-s928-sm-s928bzkqtur-539306221?$684_547_PNG$",
+      "discount": 5
+    },
+    {
+      "id": "d786",
+      "name": "PlayStation 5 ",
+      "price": 600,
+      "category": "video games",
+      "color": "white",
+      "description": "PS5® Digital Edition is an all-digital version of the PS5® console with no disc drive.ASTRO BOT Bundle",
+      "image": "https://i5.walmartimages.com/seo/PS5-Digital-Bundle-Astrobot_a0549be1-b338-42a0-a782-ded56d9ba04c.07912cf9eb10f1bba05b1cc4dcc099ea.png?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+      "discount": 2
+    },
+    {
+      "id": "0037",
+      "name": "Samsung Galaxy Tab A9",
+      "price": 190,
+      "category": "tech",
+      "color": "Graphite",
+      "description": "SAMSUNG Galaxy Tab A9+ (SM-X210), 64GB 4GB RAM, WiFi Only, 11\" Display, International Version - (Graphite)",
+      "image": "https://i5.walmartimages.com/seo/SAMSUNG-Galaxy-Tab-A9-SM-X210-64GB-4GB-RAM-WiFi-Only-11-Display-International-Version-Graphite_e05217ad-e7c5-44ee-a2ed-be8b66b6f399.e4e7ac90c9d12632b3ede31728caeb42.jpeg?odnHeight=117&odnWidth=117&odnBg=FFFFFF",
+      "discount": 8
+    },
+    {
+      "id": "6e36",
+      "name": "Nostalgia Retro Microwave",
+      "price": "99.99",
+      "category": "home appliances",
+      "color": "Pink",
+      "description": "Nostalgia Retro Microwave for Countertop 0.7 cu ft Vintage Microwave, Pink",
+      "image": "https://i5.walmartimages.com/seo/Nostalgia-Retro-0-7-Cu-ft-700-Watt-Countertop-Microwave-Oven-Pink_1d9af349-b9c2-4900-b095-087aa8a30eea.4782a8494754091b87f9672ed65826e1.jpeg?odnHeight=117&odnWidth=117&odnBg=FFFFFF"
+    },
+    {
+      "name": "Nintendo Switch™ 2",
+      "price": 538.9,
+      "category": "video games",
+      "color": "black",
+      "description": "Start your next gaming adventure with the Nintendo Switch™ 2 system —packed with upgrades and fun ways to connect and play together!",
+      "image": "https://i5.walmartimages.com/seo/Nintendo-Switch-2-System_70372a2a-0166-4a96-b99e-41cfc5b972df.ce8b230cd4608afb4eda15604fc9fbff.png?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+      "discount": 2,
+      "id": "g_fSKwZ"
+    },
+    {
+      "name": "EasySMX 2.4G",
+      "price": 35.9,
+      "category": "headset ",
+      "color": "black",
+      "description": "EasySMX V07W Wireless Gaming Headphones features stereo sound, ultra-low latency, noise-cancelling microphone, easy and comfortable to wear,",
+      "image": "https://i5.walmartimages.com/seo/EasySMX-V07W-Wireless-Gaming-Headset-for-PS5-PS4-PC-2-4G-Over-Ear-Bluetooth-Gaming-Headphones-with-Microphone-Wired-Mode-for-Xbox-Series-Black_8f9590be-c7d6-46b6-89b7-e268a531402c.eb453f1fc51f6b85008200a510e9f195.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+      "discount": 0,
+      "id": "9egBiA0"
+    }
+  ],
+  "users": [
+    {
+      "name": "momo",
+      "email": "momo@gmail.com",
+      "password": "1234",
+      "id": 1
+    },
+    {
+      "name": "salah",
+      "email": "salah@gmail.com",
+      "password": "1234",
+      "id": 2
+    }
+  ],
+  "cart": [
+    {
+      "productId": "bca1",
+      "userId": 1,
+      "quantity": 1,
+      "id": 1
+    },
+    {
+      "productId": "d786",
+      "userId": 1,
+      "quantity": 1,
+      "id": 2
+    },
+    {
+      "productId": "bca1",
+      "userId": 2,
+      "quantity": 1,
+      "id": 3
+    },
+    {
+      "productId": "d786",
+      "userId": 2,
+      "quantity": 2,
+      "id": 4
+    }
+  ],
+  "orders": [
+    {
+      "address": "turkey/eskishehir",
+      "email": "salah@gmail.com",
+      "contact": "5316793023",
+      "totalPrice": 1300,
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "address": "turkey/eskishehir",
+      "email": "salah@gmail.com",
+      "contact": "5316793023",
+      "totalPrice": 1550,
+      "userId": 1,
+      "id": 3
+    }
+  ]
+}
